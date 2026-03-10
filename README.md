@@ -1,6 +1,6 @@
 # Ex. No.  - SIMULATION ANALYSIS ON SLIDER CRANK MECHANISM
 
-## DATE: 
+## DATE: 04.02.26
 
 ## AIM:
 ###   To determine & simulate the displacement & velocity analysis for the given slider crank mechanism. 
@@ -8,7 +8,7 @@
 
 
 ## REQUIREMENTS:
-###   ●	Mech Analyzer software.
+###   ● Virtual labs.
 ###   ●	Processor: Minimum 1.5 GHz
 ###   ●	RAM: Minimum 512 MB
 ###   ●	Operating System: Windows XP, Windows Vista, Windows 7, Windows 8 or higher.
@@ -17,37 +17,98 @@
 ###   ●	Geometry instruments.
 
 ## PROCEDURE:
-###  Configuration diagram
-###  Assume scale 1:10
-###  1. Draw a horizontal line and locate C 
-###  2. At C, draw CB of length 20 mm inclined at 1200 
-###  3. With B as centre, BA 60mm, draw an arc to cut the horizontal at A. Join BA to complete the configuration diagram 
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/0e905314-0fc5-4e13-a513-67c95aced702)
+
+## Step 1: Open the Virtual Lab
+Open the Mechanics of Machines Virtual Lab and navigate to the list of experiments.
+
+## Step 2: Select the Experiment
+From the experiment list, select **Velocity Analysis of Slider Crank Mechanism**.
+
+## Step 3: Open the Simulation
+Click the **Simulation** tab to access the interactive simulation interface of the slider crank mechanism.
+
+## Step 4: Identify the Mechanism Parameters
+The simulation requires the geometric parameters of the slider crank mechanism:
+- r → Crank length
+- l → Connecting rod length
+- θ → Crank angle
+- ω₂ → Angular velocity of the crank
+
+ ![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/0e905314-0fc5-4e13-a513-67c95aced702)
+
+
+## Step 5: Enter the Given Data
+Enter the following values in the simulation input fields:
+
+- Crank length (r) = 200 mm
+- Connecting rod length (l) = 600 mm
+- Crank angle (θ) = 120°
+- Angular velocity of crank (ω₂) = 50 rad/s
+
+These values are taken from the given problem statement.
+
+## Step 6: Run the Simulation
+After entering the parameters, click the **Simulate / Submit** button to run the simulation.
+
+## Step 7: Observe the Mechanism Configuration
+The slider crank mechanism configuration is displayed on the screen.  
+The position of the slider along the line of stroke represents the **displacement of the slider**.
+
+## Step 8: Determine the Displacement
+From the configuration diagram, observe the location of the slider (point A).  
+This position corresponds to the displacement of the slider for the given crank angle.
+
+## Step 9: Perform Velocity Analysis
+The simulator generates the **velocity diagram** of the mechanism.
+
+The velocity of crank pin B is calculated using the relation:
+
+V = r × ω
+
+Where  
+r = crank radius  
+ω = angular velocity
+
+Substituting the given values:
+
+V_B = 0.2 × 50  
+V_B = 10 m/s
 
 ![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/590ca17d-5a31-427c-816d-975478542bcd)
 
 
-## Velocity diagram
-###  Scale: 10 m/s = 100 mm (say) 
-###  1. The fixed point C appears as a stationary point in the velocity diagram 
-###  2. Draw the vector bc of length 100 mm, perpendicular to the crank CB from the configuration diagram 
-###  3. At b, draw a projection line perpendicular to AB from the configuration diagram 
-###  4. Draw a horizontal at c, meeting the projection from b at a. join ca to complete the velocity diagram.
+This velocity is used to construct the velocity polygon.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/23ca1772-5a92-4b8b-a8bc-e149da33d297)
+## Step 10: Observe Velocity Results
+From the velocity diagram and result table, observe:
+- Velocity of crank pin B
+- Velocity of slider A
+- Angular velocity of the connecting rod
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/d1412f9a-dcab-4433-a9a5-b5d6d19257b9)
+## Step 11: Capture Simulation Outputs
+Take screenshots of the following outputs:
+- Input variables page
+- Slider crank configuration diagram
+- Velocity diagram
+- Result table
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/b703f1f3-def1-4fd9-a9da-6b5c4d57b632)
+## Step 12: Upload the Results to GitHub
+Upload the captured screenshots to the GitHub repository and include them in the README file along with the procedure and results.
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/188cba1a-fe54-4549-a6e5-3bb6b8d7b120)
+
+
 
 ## Output
+  <img width="1140" height="681" alt="expt 2 velo" src="https://github.com/user-attachments/assets/0bf33c7d-d5de-4d58-a233-4da1ab34c224" />
+  <img width="1021" height="344" alt="expt 2 velo values" src="https://github.com/user-attachments/assets/accb5f78-ae2a-45b5-a823-5f484e080f08" />
+  <img width="1140" height="593" alt="expt 2 posi" src="https://github.com/user-attachments/assets/b3c83749-1a62-4e90-b8e9-42d35e8c016e" />
+  <img width="1031" height="273" alt="expt 2 posi values" src="https://github.com/user-attachments/assets/034fc967-53b1-42fe-9494-4c143b580039" />
 
 
-### Name:
-### Register Number: 
+
+### Name:  SUDHARSAN U
+### Register Number: 25010861
 
 ## RESULT:
 ### Thus the displacement & velocity analysis for the given four bar chain mechanism is simulated.
