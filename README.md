@@ -75,7 +75,7 @@ Substituting the given values:
 V_B = 0.2 × 50  
 V_B = 10 m/s
 
-![image](https://github.com/Sellakumar1987/Ex.-No.2---SIMULATION-ANALYSIS-ON-SLIDER-CRANK-MECHANISM/assets/113594316/590ca17d-5a31-427c-816d-975478542bcd)
+<img width="697" height="732" alt="Screenshot 2026-03-10 215120" src="https://github.com/user-attachments/assets/46a25f8e-09bb-47a6-b025-42254af17de3" />
 
 
 This velocity is used to construct the velocity polygon.
